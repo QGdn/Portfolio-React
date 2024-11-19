@@ -1,8 +1,9 @@
 import '../style.css'
+import img from '../img/john-doe-about.jpg';
 
 const Home = () => {
     return (
-        <main>
+      <div>
         <div className="container-fluid text-center text-white" id="background-section">
             <section className="presentation">
                 <h1>Bonjour, je suis John Doe</h1>
@@ -14,7 +15,7 @@ const Home = () => {
             <section className="test">
                 <section className="apropos">
                     <h3>A propos</h3>
-                    <img src="../img/john-doe-about.jpg" alt="#" className="img-fluid"/>
+                    <img src={img} alt="#" className="img-fluid"/>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam venenatis urna nec erat vestibulum pulvinar. Vivamus eget accumsan eros. Integer volutpat ornare est, vitae tristique dolor euismod eget. Aliquam nisl nunc, scelerisque vel est ac, commodo eleifend ligula. Fusce sed nunc dapibus, rhoncus enim a, vestibulum diam. Sed luctus metus sed eros egestas, sit amet convallis mauris rhoncus. Fusce auctor commodo quam, at blandit ligula gravida id. Donec quis massa quis lectus gravida commodo sed lacinia velit.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam venenatis urna nec erat vestibulum pulvinar. Vivamus eget accumsan eros. Integer volutpat ornare est, vitae tristique dolor euismod eget. Aliquam nisl nunc, scelerisque vel est ac, commodo eleifend ligula. Fusce sed nunc dapibus, rhoncus enim a, vestibulum diam. Sed luctus metus sed eros egestas, sit amet convallis mauris rhoncus. Fusce auctor commodo quam, at blandit ligula gravida id. Donec quis massa quis lectus gravida commodo sed lacinia velit.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam venenatis urna nec erat vestibulum pulvinar. Vivamus eget accumsan eros. Integer volutpat ornare est, vitae tristique dolor euismod eget. Aliquam nisl nunc, scelerisque vel est ac, commodo eleifend ligula. Fusce sed nunc dapibus, rhoncus enim a, vestibulum diam. Sed luctus metus sed eros egestas, sit amet convallis mauris rhoncus. Fusce auctor commodo quam, at blandit ligula gravida id. Donec quis massa quis lectus gravida commodo sed lacinia velit.</p>
@@ -43,8 +44,8 @@ const Home = () => {
                     </div>
                 </section>
             </section>
-        </div>   
-    </main>
+        </div>
+      </div>
     )
 }
 
