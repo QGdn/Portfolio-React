@@ -5,8 +5,8 @@
   
 }
 
-main, footer {
-  text-align: initial;
+.banner {
+  width: 100%;
 }
 
 header a:hover {
