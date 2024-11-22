@@ -1,4 +1,5 @@
-import '../style.css'
+import '../css/style.css';
+import '../css/home.css';
 import img from '../img/john-doe-about.jpg';
 
 const Home = () => {

@@ -1,0 +1,36 @@
+.banner {
+    width: 100%;
+  }
+
+  main {
+    text-align: center;
+  }
+
+ .title {
+    border-bottom: 5px solid blue;
+    max-width: fit-content;
+    margin: 40px auto;
+  }
+
+  .cards {
+    justify-content: center;
+  }
+
+  .card {
+    margin: 20px 10px;
+    flex-basis: 30%;
+  }
+
+  .logo {
+    margin: 40px 0px;
+  }
+
+  @media (max-width: 1024px) {
+    .cards {
+        display: block;
+    }
+
+    .card {
+        width: 100%;
+    }
+  }
