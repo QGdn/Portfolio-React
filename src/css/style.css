@@ -46,6 +46,7 @@ footer .adress p {
 
 .cards {
   display: flex;
+  flex-wrap: wrap;
 }
 
 
