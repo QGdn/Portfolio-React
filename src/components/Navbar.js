@@ -1,6 +1,16 @@
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
+
 import '../css/style.css';
 
 const Navbar = () => {
+      let [activeLink, setActiveLink] = useState("/");
+
+      const handleClick = (path) => {
+        setActiveLink(path);
+      };
+    
+
     return(
         <header>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark text-uppercase">
@@ -12,19 +22,19 @@ const Navbar = () => {
               <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <a className="nav-link active text-decoration-underline fw-semibold" aria-current="page" href="/">Home</a>
+                    <Link className={`nav-link ${activeLink === "/" ? "active fw-bold text-decoration-underline" : ""}`} onClick={() => handleClick("/")}  to="/">Home</Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/services">Services</a>
+                    <Link className={`nav-link ${activeLink === "/services" ? "active fw-bold text-decoration-underline" : ""}`} onClick={() => handleClick("/services")} to="/services">Services</Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/portfolio">Portfolio</a>
+                    <Link className={`nav-link ${activeLink === "/portfolio" ? "active fw-bold text-decoration-underline" : ""}`} onClick={() => handleClick("/portfolio")} to="/portfolio">Portfolio</Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/contact">Contact</a>
+                    <Link className={`nav-link ${activeLink === "/contact" ? "active fw-bold text-decoration-underline" : ""}`} onClick={() => handleClick("/contact")} to="/contact">Contact</Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/mentions">Mentions légales</a>
+                    <Link className={`nav-link ${activeLink === "/mentions" ? "active fw-bold text-decoration-underline" : ""}`} onClick={() => handleClick("/mentions")} to="/mentions">Mentions légales</Link>
                   </li>
                 </ul>
               </div>

@@ -11,7 +11,7 @@ import Mentions from './pages/mentions';
 import Portfolio from './pages/portfolio';
 import Services from './pages/services';
 
-function App() {
+const App = () => {
   return (
     <div className='App'>
       <Navbar/>

@@ -22,7 +22,7 @@ function Card(props) {
 export default function Services() {
     return (
         <div>
-            <img src={Banner} alt="#" className='banner'/>
+            <img src={Banner} alt="Bannière bleue" className='banner'/>
             <section class="container title">
                 <h1>Mon offre de services</h1>
                 <p>Voici les prestations sur lesquelles je peux intervenir</p>
