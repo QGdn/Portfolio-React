@@ -1,0 +1,48 @@
+.title-border {
+    max-width: fit-content;
+    margin: 40px auto;
+
+    p:last-child {
+        display: inline-block;
+        width: 60%;
+        border-bottom: 5px solid blue;
+    }
+  }
+
+  
+.test {
+    h2 {
+        text-align: start;
+        border-bottom: 3px solid blue;
+        padding: 10px 0px;
+        margin-bottom: 40px;
+    }
+
+    section {
+        padding: 0px 5px;
+        width: 50%;
+    }
+
+    input {
+        margin-bottom: 5px;
+    }
+
+    /* .adress adress {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+    } */
+
+    button {
+        margin: 10px 0px 40px 0px;
+    }
+
+    iframe {
+        width: 100%;
+        margin: 20px 0px;
+    }
+
+    img {
+        display: inline;
+    }
+}
