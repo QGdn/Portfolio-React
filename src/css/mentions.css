@@ -11,8 +11,7 @@
 
 .accordion {
     width: 75%;
-    justify-self: center;
-    margin: 50px 0px 100px;
+    margin: 50px auto 100px;
     text-align: start;
 }
 

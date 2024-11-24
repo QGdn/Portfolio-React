@@ -10,7 +10,7 @@
   }
 
   
-.test {
+.content {
     h2 {
         text-align: start;
         border-bottom: 3px solid blue;
@@ -53,7 +53,7 @@
 }
 
 @media (max-width : 768px) {
-    .test section {
+    .content section {
         width: 100%;
     }
 }

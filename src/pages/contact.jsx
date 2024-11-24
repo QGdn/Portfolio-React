@@ -12,7 +12,7 @@ export default function Contact() {
                 <p>Pour me contacter en vue d'un entretien ou d'une future collaboration, merci de remplir le formulaire de contact</p>
                 <p></p>
             </section>
-            <div className='container-fluid test'>
+            <div className='container-fluid content'>
                 <section className='form'>
                     <form>
                         <h2>Formulaire de contact</h2>
