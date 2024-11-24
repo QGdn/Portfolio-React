@@ -19,7 +19,7 @@
     }
 
     section {
-        padding: 0px 5px;
+        padding: 0px 10px;
         width: 50%;
     }
 
@@ -27,11 +27,19 @@
         margin-bottom: 5px;
     }
 
-    /* .adress adress {
+    .adress adress {
         display: flex;
         flex-direction: column;
         text-align: start;
-    } */
+    
+        p {
+            margin-bottom: 0px;
+        }
+
+        svg {
+            margin-right: 5px;
+        }
+    }
 
     button {
         margin: 10px 0px 40px 0px;
@@ -42,7 +50,10 @@
         margin: 20px 0px;
     }
 
-    img {
-        display: inline;
+}
+
+@media (max-width : 768px) {
+    .test section {
+        width: 100%;
     }
 }
