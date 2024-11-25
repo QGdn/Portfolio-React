@@ -2,14 +2,55 @@ import '../css/style.css';
 import '../css/home.css';
 import img from '../img/john-doe-about.jpg';
 
+import { useState, useEffect } from 'react';
+
+
 const Home = () => {
+  const [profil,setProfil] = useState([]);
+
+    const getProfil = async () => {
+      const res = await fetch("https://api.github.com/users/github-john-doe")
+      const json = await res.json();
+      setProfil(json);
+    }
+
+    useEffect(() => {
+      getProfil();
+    },[])
+
     return (
       <div>
         <div className="container-fluid text-center text-white" id="background-section">
             <section className="presentation">
                 <h1>Bonjour, je suis John Doe</h1>
                 <h2>Développeur web full stack</h2>
-                <button type="button" className="btn btn-danger">En savoir plus</button>
+                <button type="button" className="btn btn-danger" data-bs-toggle="modal" data-bs-target="#profilGitHub">En savoir plus</button>
+                <div className="modal fade" id="profilGitHub" tabIndex="-1" aria-labelledby="modalProfilGitHub" aria-hidden="true">
+                  <div className="modal-dialog">
+                    <div className="container-fluid modal-content bg-dark">
+                      <div className="modal-header ">
+                        <h1 className="modal-title fs-5" id="modalTitreProfilGitHub">Mon profil GitHub</h1>
+                        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div className="modal-body">
+                        <section className='imgProfil'>
+                          <img src={profil.avatar_url} alt='Photo de profil de John Doe' className='img-fluid'/>
+                        </section>
+                        <section className='infosProfil'>
+                          <p><a href="https://github.com/github-john-doe">{profil.name}</a></p>
+                          <p>{profil.location}</p>
+                          <p>{profil.bio}</p>
+                          <p>Repositories : {profil.public_repos}</p>
+                          <p>Followers : {profil.followers}</p>
+                          <p>Following : {profil.following}</p>
+                        </section>
+                      </div>
+                      <div className="modal-footer">
+                        <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Fermer</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
             </section>
         </div>
         <div className="container-fluid">

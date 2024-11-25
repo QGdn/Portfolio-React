@@ -52,3 +52,11 @@
     margin-top: 16px;
     text-align: start;
   }
+
+  .modal-body {
+    display: flex;
+  }
+
+  .imgProfil {
+    align-content: center;
+  }
