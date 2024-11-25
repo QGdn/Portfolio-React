@@ -14,7 +14,7 @@ header a:hover {
 }
 
 header h1 {
-  margin: 0px;
+  margin: 0px 32px;
 }
 
 footer section {
@@ -54,7 +54,11 @@ footer .adress p {
 
 
 @media (max-width: 768px) {
-  .content, footer .navbar {
+  .content {
     flex-wrap: wrap;
+  }
+
+  footer .navbar {
+    display: block;
   }
 }
