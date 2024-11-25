@@ -52,3 +52,22 @@
     margin-top: 16px;
     text-align: start;
   }
+
+  .modal {
+    --bs-modal-width : 750px
+  }
+
+  .modal-body {
+    display: flex;
+  }
+
+  .modal-dialog {
+    height: 100%;
+    align-content: center;
+  }
+
+  .imgProfil, .infosProfil {
+    align-content: center;
+    text-align: start;
+    width: 50%;
+  }
