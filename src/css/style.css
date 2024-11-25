@@ -5,6 +5,9 @@
   
 }
 
+h1, h2, h3, h4, h5, h6, strong {
+  font-weight: 600;
+}
 
 header a:hover {
   text-decoration: underline;
@@ -51,7 +54,7 @@ footer .adress p {
 
 
 @media (max-width: 768px) {
-  .test, footer .navbar {
-    display: block;
+  .content, footer .navbar {
+    flex-wrap: wrap;
   }
 }

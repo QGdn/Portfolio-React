@@ -13,7 +13,7 @@ const Home = () => {
             </section>
         </div>
         <div className="container-fluid">
-            <section className="test">
+            <section className="content">
                 <section className="apropos">
                     <h3>A propos</h3>
                     <img src={img} alt="#" className="img-fluid"/>

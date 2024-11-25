@@ -34,7 +34,7 @@ const Navbar = () => {
                     <Link className={`nav-link ${activeLink === "/contact" ? "active fw-bold text-decoration-underline" : ""}`} onClick={() => handleClick("/contact")} to="/contact">Contact</Link>
                   </li>
                   <li className="nav-item">
-                    <Link className={`nav-link ${activeLink === "/mentions" ? "active fw-bold text-decoration-underline" : ""}`} onClick={() => handleClick("/mentions")} to="/mentions">Mentions légales</Link>
+                    <Link className={`nav-link ${activeLink === "/mentions" ? "active fw-bold text-decoration-underline" : ""}`} onClick={() => handleClick("/mentions")} to="/mentions" rel="nofollow">Mentions légales</Link>
                   </li>
                 </ul>
               </div>

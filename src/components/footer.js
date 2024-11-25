@@ -1,5 +1,7 @@
 import '../css/style.css';
 
+import { Link } from 'react-router-dom';
+
 const Footer = () => {
     return (
         <footer>
@@ -32,20 +34,20 @@ const Footer = () => {
                 </section>
                 <section class="liens text-white">
                     <h4>Liens utiles</h4>
-                    <a href="/">Accueil</a>
-                    <a href="/services">Services</a>
-                    <a href="/portfolio">Portfolio</a>
-                    <a href="/contact">Me contacter</a>
-                    <a href="/mentions">Mentions légales</a>
+                    <Link to="/">Accueil</Link>
+                    <Link to="/services">Services</Link>
+                    <Link to="/portfolio">Portfolio</Link>
+                    <Link to="/contact">Me contacter</Link>
+                    <Link to="/mentions" rel='nofollow'>Mentions légales</Link>
                 </section>
                 <section class="liens text-white">
                     <h4>Mes dernières réalisations</h4>
-                    <a href="#">Fresh Food</a>
-                    <a href="#">Restaurant Akira</a>
-                    <a href="#">Espace bien-être</a>
-                    <a href="#">SEO</a>
-                    <a href="#">Création d'une API</a>
-                    <a href="#">Maquette d'un site</a>
+                    <Link to="/portfolio">Fresh Food</Link>
+                    <Link to="/portfolio">Restaurant Akira</Link>
+                    <Link to="/portfolio">Espace bien-être</Link>
+                    <Link to="/portfolio">SEO</Link>
+                    <Link to="/portfolio">Création d'une API</Link>
+                    <Link to="/portfolio">Maquette d'un site</Link>
                 </section>
             </nav>
         </footer>
