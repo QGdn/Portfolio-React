@@ -35,10 +35,6 @@
   .content .apropos, .content .skills {
     padding: 40px;
     flex-basis: 100%;
-  }
-  
-  .content .apropos h3, .content .skills h3 {
-    font-weight: 600;
     text-align: start;
   }
   
