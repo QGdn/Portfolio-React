@@ -59,6 +59,7 @@
 
   .modal-body {
     display: flex;
+    flex-wrap: wrap;
   }
 
   .modal-dialog {
@@ -70,4 +71,33 @@
     align-content: center;
     text-align: start;
     width: 50%;
+  }
+
+  .infosProfil {
+    align-content: baseline;
+    
+  }
+
+  .infosProfil p {
+    padding: 10px 0px 10px 10px;
+    margin-bottom: 0px;
+    border-bottom: 1px solid white;
+  }
+
+  .infosProfil svg {
+    margin-right: 10px;
+  }
+
+  @media (max-width: 768px) {
+    .modal-content {
+      width: 75%;
+    }
+
+    .imgProfil, .infosProfil {
+      width: 100%;
+    }
+
+    .modal-body {
+      padding: 32px;
+    }
   }
