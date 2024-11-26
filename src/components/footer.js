@@ -34,7 +34,7 @@ const Footer = () => {
                 </section>
                 <section className="liens text-white">
                     <h4>Liens utiles</h4>
-                    <Link to="/">Accueil</Link>
+                    <Link to="/portfolio-react">Accueil</Link>
                     <Link to="/services">Services</Link>
                     <Link to="/portfolio">Portfolio</Link>
                     <Link to="/contact">Me contacter</Link>

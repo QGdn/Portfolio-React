@@ -22,7 +22,7 @@ const Navbar = () => {
               <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <Link className={`nav-link ${activeLink === "/" ? "active fw-bold text-decoration-underline" : ""}`} onClick={() => handleClick("/")}  to="/">Home</Link>
+                    <Link className={`nav-link ${activeLink === "/portfolio-react" ? "active fw-bold text-decoration-underline" : ""}`} onClick={() => handleClick("/portfolio-react")}  to="/portfolio-react">Home</Link>
                   </li>
                   <li className="nav-item">
                     <Link className={`nav-link ${activeLink === "/services" ? "active fw-bold text-decoration-underline" : ""}`} onClick={() => handleClick("/services")} to="/services">Services</Link>
