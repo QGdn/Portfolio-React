@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.7a6fccd6.css",
-    "main.js": "/static/js/main.ef8b432a.js",
-    "static/js/453.906b0208.chunk.js": "/static/js/453.906b0208.chunk.js",
-    "static/media/hero-bg.jpg": "/static/media/hero-bg.b8e12f2e72b502a5488a.jpg",
-    "static/media/fresh-food.jpg": "/static/media/fresh-food.f9cd00cae747ce16b0ee.jpg",
-    "static/media/seo.jpg": "/static/media/seo.6bcd3f1167b406ea1f61.jpg",
-    "static/media/screens.jpg": "/static/media/screens.0a86655b7e4e2f075a26.jpg",
-    "static/media/restaurant-japonais.jpg": "/static/media/restaurant-japonais.12050b46a3cca523c6c9.jpg",
-    "static/media/coder.jpg": "/static/media/coder.e936b864e20943704d2a.jpg",
-    "static/media/banner.jpg": "/static/media/banner.55f7c897ddbeb816abb9.jpg",
-    "static/media/john-doe-about.jpg": "/static/media/john-doe-about.07bb2b3f66fb2530c208.jpg",
-    "static/media/espace-bien-etre.jpg": "/static/media/espace-bien-etre.f6f025ed9a6d4d00b431.jpg",
-    "index.html": "/index.html",
-    "main.7a6fccd6.css.map": "/static/css/main.7a6fccd6.css.map",
-    "main.ef8b432a.js.map": "/static/js/main.ef8b432a.js.map",
-    "453.906b0208.chunk.js.map": "/static/js/453.906b0208.chunk.js.map"
+    "main.css": "/portfolio-react/home/static/css/main.87b7ccb3.css",
+    "main.js": "/portfolio-react/home/static/js/main.4c050e50.js",
+    "static/js/453.906b0208.chunk.js": "/portfolio-react/home/static/js/453.906b0208.chunk.js",
+    "static/media/hero-bg.jpg": "/portfolio-react/home/static/media/hero-bg.b8e12f2e72b502a5488a.jpg",
+    "static/media/fresh-food.jpg": "/portfolio-react/home/static/media/fresh-food.f9cd00cae747ce16b0ee.jpg",
+    "static/media/seo.jpg": "/portfolio-react/home/static/media/seo.6bcd3f1167b406ea1f61.jpg",
+    "static/media/screens.jpg": "/portfolio-react/home/static/media/screens.0a86655b7e4e2f075a26.jpg",
+    "static/media/restaurant-japonais.jpg": "/portfolio-react/home/static/media/restaurant-japonais.12050b46a3cca523c6c9.jpg",
+    "static/media/coder.jpg": "/portfolio-react/home/static/media/coder.e936b864e20943704d2a.jpg",
+    "static/media/banner.jpg": "/portfolio-react/home/static/media/banner.55f7c897ddbeb816abb9.jpg",
+    "static/media/john-doe-about.jpg": "/portfolio-react/home/static/media/john-doe-about.07bb2b3f66fb2530c208.jpg",
+    "static/media/espace-bien-etre.jpg": "/portfolio-react/home/static/media/espace-bien-etre.f6f025ed9a6d4d00b431.jpg",
+    "index.html": "/portfolio-react/home/index.html",
+    "main.87b7ccb3.css.map": "/portfolio-react/home/static/css/main.87b7ccb3.css.map",
+    "main.4c050e50.js.map": "/portfolio-react/home/static/js/main.4c050e50.js.map",
+    "453.906b0208.chunk.js.map": "/portfolio-react/home/static/js/453.906b0208.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a6fccd6.css",
-    "static/js/main.ef8b432a.js"
+    "static/css/main.87b7ccb3.css",
+    "static/js/main.4c050e50.js"
   ]
 }
