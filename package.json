@@ -16,7 +16,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -38,7 +40,9 @@
   },
   "description": "portfolio John Doe",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/QGdn/portfolio-react.git"
@@ -48,5 +52,5 @@
   "bugs": {
     "url": "https://github.com/QGdn/portfolio-react/issues"
   },
-  "homepage": "https://github.com/QGdn/portfolio-react#readme"
+  "homepage": "https://qgdn.github.io/portfolio-react"
 }
