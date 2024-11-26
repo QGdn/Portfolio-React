@@ -16,8 +16,8 @@ const App = () => {
     <div className='App'>
       <Navbar/>
       <main>
-        <Routes>
-          <Route path='/home' element={<Home/>} />
+        <Routes basename="/portfolio-react">
+          <Route path='/' element={<Home/>} />
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/mentions' element={<Mentions/>}/>
           <Route path='/portfolio' element={<Portfolio/>}/>
